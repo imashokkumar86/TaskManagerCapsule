@@ -1,0 +1,1 @@
+C:\TaskManager_capsules\TaskManagerAPI\TaskMangerWebAPI\TaskMangerWebAPI.Tests\obj\Debug\TaskMangerWebAPI.Tests.csprojResolveAssemblyReference.cache

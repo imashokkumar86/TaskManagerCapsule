@@ -1,0 +1,43 @@
+<h1>Task List
+  <button class="btn btn-success btn-circle pull-right" 
+          (click)="add()"     
+          title="Add Task">
+    <i class="glyphicon glyphicon-plus"></i>
+  </button>
+</h1>
+
+<div class="alert-danger">{{errorMessage}}</div>
+
+<div class="input-group">
+    <input type="text" class="form-control" 
+            placeholder="Search" 
+            aria-describedby="basic-addon1">
+    <span class="input-group-addon" id="basic-addon1">Search</span>
+</div> 
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Task Description</th>
+            <th>Start Date</th>
+            <th>End Date</th>
+            <th>Priority</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let task of tasks">
+            <td>{{task.task_ID}}</td>
+            <td>{{task.taskDesc}}</td>
+            <td>{{task.start_Date}}</td>
+            <td>{{task.end_Date}}</td>
+            <td>{{task.priority}}</td>
+            <td style="width: 70px;">
+                <i class="glyphicon glyphicon-edit pointer"
+                   (click)="edit(task.task_ID)" title="Edit"></i>
+                <i class="glyphicon glyphicon-trash pointer"    
+                    (click)="delete(task.task_ID)" title="Delete"></i>
+             
+            </td>
+        </tr>
+    </tbody>
+</table>

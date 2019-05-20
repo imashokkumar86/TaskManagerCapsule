@@ -1,0 +1,12 @@
+C:\TaskManager_capsules\TaskManagerAPI\TaskMangerWebAPI\TaskManager.DataLayer\bin\Debug\TaskManager.DataLayer.dll.config
+C:\TaskManager_capsules\TaskManagerAPI\TaskMangerWebAPI\TaskManager.DataLayer\bin\Debug\TaskManager.DataLayer.dll
+C:\TaskManager_capsules\TaskManagerAPI\TaskMangerWebAPI\TaskManager.DataLayer\bin\Debug\TaskManager.DataLayer.pdb
+C:\TaskManager_capsules\TaskManagerAPI\TaskMangerWebAPI\TaskManager.DataLayer\bin\Debug\EntityFramework.dll
+C:\TaskManager_capsules\TaskManagerAPI\TaskMangerWebAPI\TaskManager.DataLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\TaskManager_capsules\TaskManagerAPI\TaskMangerWebAPI\TaskManager.DataLayer\bin\Debug\TaskManager.Entites.dll
+C:\TaskManager_capsules\TaskManagerAPI\TaskMangerWebAPI\TaskManager.DataLayer\bin\Debug\TaskManager.Entites.pdb
+C:\TaskManager_capsules\TaskManagerAPI\TaskMangerWebAPI\TaskManager.DataLayer\bin\Debug\EntityFramework.xml
+C:\TaskManager_capsules\TaskManagerAPI\TaskMangerWebAPI\TaskManager.DataLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\TaskManager_capsules\TaskManagerAPI\TaskMangerWebAPI\TaskManager.DataLayer\obj\Debug\TaskManager.DataLayer.csprojResolveAssemblyReference.cache
+C:\TaskManager_capsules\TaskManagerAPI\TaskMangerWebAPI\TaskManager.DataLayer\obj\Debug\TaskManager.DataLayer.dll
+C:\TaskManager_capsules\TaskManagerAPI\TaskMangerWebAPI\TaskManager.DataLayer\obj\Debug\TaskManager.DataLayer.pdb

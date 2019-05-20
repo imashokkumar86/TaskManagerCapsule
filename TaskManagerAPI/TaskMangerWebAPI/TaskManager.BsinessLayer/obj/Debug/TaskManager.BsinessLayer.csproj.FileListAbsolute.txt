@@ -1,0 +1,5 @@
+C:\TaskManager_capsules\TaskManagerAPI\TaskMangerWebAPI\TaskManager.BsinessLayer\bin\Debug\TaskManager.BsinessLayer.dll
+C:\TaskManager_capsules\TaskManagerAPI\TaskMangerWebAPI\TaskManager.BsinessLayer\bin\Debug\TaskManager.BsinessLayer.pdb
+C:\TaskManager_capsules\TaskManagerAPI\TaskMangerWebAPI\TaskManager.BsinessLayer\obj\Debug\TaskManager.BsinessLayer.dll
+C:\TaskManager_capsules\TaskManagerAPI\TaskMangerWebAPI\TaskManager.BsinessLayer\obj\Debug\TaskManager.BsinessLayer.pdb
+C:\TaskManager_capsules\TaskManagerAPI\TaskMangerWebAPI\TaskManager.BsinessLayer\obj\Debug\TaskManager.BsinessLayer.csprojResolveAssemblyReference.cache

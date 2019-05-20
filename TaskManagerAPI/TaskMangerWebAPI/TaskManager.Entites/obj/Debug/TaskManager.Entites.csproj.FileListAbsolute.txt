@@ -1,0 +1,10 @@
+C:\TaskManager_capsules\TaskManagerAPI\TaskMangerWebAPI\TaskManager.Entites\bin\Debug\TaskManager.Entites.dll.config
+C:\TaskManager_capsules\TaskManagerAPI\TaskMangerWebAPI\TaskManager.Entites\bin\Debug\TaskManager.Entites.dll
+C:\TaskManager_capsules\TaskManagerAPI\TaskMangerWebAPI\TaskManager.Entites\bin\Debug\TaskManager.Entites.pdb
+C:\TaskManager_capsules\TaskManagerAPI\TaskMangerWebAPI\TaskManager.Entites\bin\Debug\EntityFramework.dll
+C:\TaskManager_capsules\TaskManagerAPI\TaskMangerWebAPI\TaskManager.Entites\bin\Debug\EntityFramework.SqlServer.dll
+C:\TaskManager_capsules\TaskManagerAPI\TaskMangerWebAPI\TaskManager.Entites\bin\Debug\EntityFramework.xml
+C:\TaskManager_capsules\TaskManagerAPI\TaskMangerWebAPI\TaskManager.Entites\bin\Debug\EntityFramework.SqlServer.xml
+C:\TaskManager_capsules\TaskManagerAPI\TaskMangerWebAPI\TaskManager.Entites\obj\Debug\TaskManager.Entites.csprojResolveAssemblyReference.cache
+C:\TaskManager_capsules\TaskManagerAPI\TaskMangerWebAPI\TaskManager.Entites\obj\Debug\TaskManager.Entites.dll
+C:\TaskManager_capsules\TaskManagerAPI\TaskMangerWebAPI\TaskManager.Entites\obj\Debug\TaskManager.Entites.pdb
