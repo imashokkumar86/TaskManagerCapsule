@@ -2,24 +2,28 @@ import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { ParentComponent } from './parent.component';
 
-describe('ParentComponent', () => {
-  let component: ParentComponent;
-  let fixture: ComponentFixture<ParentComponent>;
+import {
+  FormGroup,
+  ReactiveFormsModule
+} from '@angular/forms';
 
-  beforeEach(async(() => {
-    TestBed.configureTestingModule({
-      declarations: [ ParentComponent ]
-    })
-    .compileComponents();
-  }));
-
-  beforeEach(() => {
-    fixture = TestBed.createComponent(ParentComponent);
-    component = fixture.componentInstance;
-    fixture.detectChanges();
-  });
-
-  it('should create', () => {
-    expect(component).toBeTruthy();
-  });
+describe('component:ParentComponent',()=>{
+  let component:ParentComponent;
+  beforeEach(()=>{
+TestBed.configureTestingModule({
+declarations:[ParentComponent],
+imports:[ReactiveFormsModule]
 });
+const fixture=TestBed.createComponent(ParentComponent);
+component=fixture.componentInstance;
+
+  });
+
+  it('should have a defined component', () => {
+    expect(component).toBeDefined();
+});
+it('should create a FormGroup comprised of FormControls', () => {
+  component.ngOnInit();
+  expect(component.parentForm instanceof FormGroup).toBe(true);
+});
+})

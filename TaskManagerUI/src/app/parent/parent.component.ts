@@ -1,11 +1,13 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit,Input } from '@angular/core';
 import { FormBuilder, FormGroup, Validators} from '@angular/forms';
 import { ParentService } from '../services/parent.service';
 import { ActivatedRoute, Router } from '@angular/router';
 
 @Component({
-  selector: 'app-parent',
-  templateUrl: './parent.component.html',
+  selector: 'dynamic-form',
+  //selector: 'app-parent',
+  //templateUrl: './parent.component.html',
+  template: '',
   styleUrls: ['./parent.component.css']
 })
 export class ParentComponent implements OnInit {

@@ -31,4 +31,15 @@ this.getTasks();
 edit(id){
     this._router.navigate(['task/edit/'+ id])
 }
+//delete parent task service
+delete(id){
+  var ans = confirm("Do you want to delete task with Id: " + id);
+  if(ans){
+    this._taskService.deleteTask(id)
+     .subscribe(  data=> {
+       var index = this.tasks.findIndex(x=>x.id == id);
+       this.tasks.splice(index, 1);
+     }, error=> this.errorMessage = error )
+  }
+}
 }

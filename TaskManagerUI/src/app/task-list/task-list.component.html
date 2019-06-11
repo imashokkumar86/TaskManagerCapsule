@@ -18,6 +18,7 @@
     <thead>
         <tr>
             <th>ID</th>
+            <th>Parent Task</th>
             <th>Task Description</th>
             <th>Start Date</th>
             <th>End Date</th>
@@ -27,6 +28,7 @@
     <tbody>
         <tr *ngFor="let task of tasks">
             <td>{{task.task_ID}}</td>
+            <td>{{task.parentTask.parent_Task}}</td>
             <td>{{task.taskDesc}}</td>
             <td>{{task.start_Date}}</td>
             <td>{{task.end_Date}}</td>
