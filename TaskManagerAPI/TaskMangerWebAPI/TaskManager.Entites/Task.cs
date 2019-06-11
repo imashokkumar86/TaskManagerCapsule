@@ -17,7 +17,7 @@ namespace TaskManager.Entites
         public DateTime Start_Date { get; set; }
         public DateTime End_Date { get; set; }
         public int Priority { get; set; }
-        [ForeignKey("Parent_ID")]
+        
         public virtual ParentTask ParentTask { get; set; }
     }
 }

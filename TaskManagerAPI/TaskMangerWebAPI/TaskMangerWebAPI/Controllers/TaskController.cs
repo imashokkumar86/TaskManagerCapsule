@@ -76,18 +76,27 @@ namespace TaskMangerWebAPI.Controllers
                     return BadRequest(ModelState);
             }
             else
-            taskDetailBO.Create(taskDetail);
+            {
+                if (taskDetail.ParentTask != null)
+                {
+                    taskDetail.Parent_ID = taskDetail.ParentTask.Parent_ID;
+                    taskDetail.ParentTask = null;
+                }
+                    
+                taskDetailBO.Create(taskDetail);
 
-            return Ok(taskDetail.Task_ID);
-        }
+                return Ok(taskDetail.Task_ID);
+            }
+            
+              }
 
         // DELETE: api/Task/5
         [ResponseType(typeof(ParentTask))]
-        public IHttpActionResult DeleteParentTask(int id)
+        public IHttpActionResult DeleteTask(int id)
         {
             bool status = taskDetailBO.Delete(id);
             if (status)
-                return Ok();
+                return Ok(id);
             else
                 return BadRequest();
         }
